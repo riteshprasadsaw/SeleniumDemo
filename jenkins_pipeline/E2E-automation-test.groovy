@@ -5,7 +5,7 @@ node {
     }
     stage('Smoke') {
         try {
-            sh "mvn clean verify"
+            sh "mvn clean test"
         } catch (err) {
 
         } finally {
