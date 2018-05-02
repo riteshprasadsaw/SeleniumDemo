@@ -1,6 +1,8 @@
 package utils.Listeners;
 
-import com.relevantcodes.extentreports.LogStatus;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -29,7 +31,7 @@ public class TestListener extends BaseTest implements ITestListener {
         System.out.println("I am in onFinish method " + iTestContext.getName());
         //Do tier down operations for extentreports reporting!
         ExtentTestManager.endTest();
-        ExtentManager.getReporter().flush();
+        ExtentManager.getInstance().flush();
     }
 
     @Override
@@ -43,7 +45,7 @@ public class TestListener extends BaseTest implements ITestListener {
     public void onTestSuccess(ITestResult iTestResult) {
         System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
         //Extentreports log operation for passed tests.
-        ExtentTestManager.getTest().log(LogStatus.PASS, "Test passed");
+        ExtentTestManager.getTest().log(Status.PASS, "Test passed");
     }
 
     @Override
@@ -59,15 +61,17 @@ public class TestListener extends BaseTest implements ITestListener {
                 getScreenshotAs(OutputType.BASE64);
 
         //Extentreports log and screenshot operations for failed tests.
-        ExtentTestManager.getTest().log(LogStatus.FAIL,"Test Failed",
-                ExtentTestManager.getTest().addBase64ScreenShot(base64Screenshot));
+
+            ExtentTestManager.getTest().log(Status.FAIL,"Test Failed");
+                    //ExtentTestManager.getTest().addScreenCaptureFromPath(base64Screenshot));
+
     }
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
         System.out.println("I am in onTestSkipped method "+  getTestMethodName(iTestResult) + " skipped");
         //Extentreports log operation for skipped tests.
-        ExtentTestManager.getTest().log(LogStatus.SKIP, "Test Skipped");
+        ExtentTestManager.getTest().log(Status.SKIP, "Test Skipped");
     }
 
     @Override

@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="984abeb2-5906-49a9-a297-98fbec6a37fd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtentReportsExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReportsExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,64 +36,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E2E-automation-test.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jenkins_pipeline/E2E-automation-test.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Retry.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AnnotationTransformer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/AnnotationTransformer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,22 +45,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtentManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java">
+      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="-550">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="774">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Retry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtentTestNGITestListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestNGITestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +110,32 @@
       <file leaf-file-name="ExtentTestManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+            <state relative-caret-position="400">
+              <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtentManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -130,16 +158,19 @@
         <option value="$PROJECT_DIR$/src/test/java/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/Listener.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/AnnotationTransformer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" />
-        <option value="$PROJECT_DIR$/TestNG.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/unit_tests/WinAppDriverTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/jenkins_pipeline/E2E-automation-test.groovy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/ExtentReport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/ExtentReportBuilderNew.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" />
+        <option value="$PROJECT_DIR$/TestNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestNGITestListener.java" />
       </list>
     </option>
   </component>
@@ -167,7 +198,9 @@
     <option name="width" value="924" />
     <option name="height" value="498" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -190,7 +223,54 @@
             <path>
               <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins_pipeline" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="ExtentReports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="extentreports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExtentReportsExample-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="Listeners" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,6 +285,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -530,51 +611,52 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests - 2017.10.07 at 02h 07m 29s.xml">
-      <configuration name="LoginTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests - 2017.10.07 at 02h 09m 41s.xml">
-      <configuration name="LoginTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests - 2017.10.07 at 02h 14m 07s.xml">
-      <configuration name="LoginTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests - 2017.10.07 at 02h 16m 56s.xml">
-      <configuration name="LoginTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.04.10 at 10h 05m 08s.xml">
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 20h 59m 19s.xml">
       <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="WinAppDriverTest - 2018.04.17 at 15h 03m 22s.xml">
-      <configuration name="WinAppDriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WinAppDriverTest - 2018.04.17 at 16h 40m 37s.xml">
-      <configuration name="WinAppDriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WinAppDriverTest - 2018.04.17 at 16h 44m 55s.xml">
-      <configuration name="WinAppDriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 16h 37m 20s.xml">
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 00m 51s.xml">
       <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 16h 42m 37s.xml">
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 27m 40s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 28m 36s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 29m 31s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 31m 27s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 33m 07s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 34m 47s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 37m 39s.xml">
+      <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_onurb_Google_Drive_PROJECTS_MyOwnProjects_Selenium-Training_Selenium-Basics_Projects_ExtentReportsExample_TestNG_xml - 2018.05.02 at 21h 39m 27s.xml">
       <configuration name="C:/Users/onurb/Google Drive/PROJECTS/MyOwnProjects/Selenium-Training/Selenium-Basics/Projects/ExtentReportsExample/TestNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="703" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32809773" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32955465" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42582896" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42582896" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32984293" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32984293" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20242915" />
@@ -607,37 +689,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -870,13 +921,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/java/pages/BasePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -898,31 +942,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+    <entry file="file://$PROJECT_DIR$/ExtentReports/ExtentReportResults.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins_pipeline/E2E-automation-test.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/AnnotationTransformer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -933,34 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="486">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#446#447#0" expanded="true" />
             <element signature="e#475#476#0" expanded="true" />
@@ -968,24 +981,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExtentReports/ExtentReportResults.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.11/testng-6.11.jar!/org/testng/IReporter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="108">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/ExtentReportBuilderNew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="44" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extent.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/AnnotationTransformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="681">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins_pipeline/E2E-automation-test.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="-550">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestNGITestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
