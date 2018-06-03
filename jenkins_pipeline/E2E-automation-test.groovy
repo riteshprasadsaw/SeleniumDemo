@@ -9,10 +9,10 @@ node {
         } catch (err) {
 
         } finally {
-            publishHTML (target: [
-                    reportDir: 'ExtentReports',
+            publishHTML(target: [
+                    reportDir  : 'ExtentReports',
                     reportFiles: 'ExtentReportResults.html',
-                    reportName: "Smoke tests report"
+                    reportName : "Smoke tests report"
             ])
         }
     }

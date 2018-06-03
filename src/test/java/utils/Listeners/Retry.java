@@ -6,16 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 import tests.BaseTest;
-import utils.ExtentReports.ExtentTestManager;
 
 import java.io.IOException;
 
-import static com.aventstack.extentreports.Status.FAIL;
-
 public class Retry implements IRetryAnalyzer {
 
-    private int count = 0;
     private static int maxTry = 1; //Run the failed test 2 times
+    private int count = 0;
 
     @Override
     public boolean retry(ITestResult iTestResult) {
@@ -36,11 +33,11 @@ public class Retry implements IRetryAnalyzer {
         return false;
     }
 
-    public void extendReportsFailOperations (ITestResult iTestResult) throws IOException {
+    public void extendReportsFailOperations(ITestResult iTestResult) throws IOException {
         Object testClass = iTestResult.getInstance();
         WebDriver webDriver = ((BaseTest) testClass).getDriver();
-        String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot)webDriver).getScreenshotAs(OutputType.BASE64);
-       // ExtentTestManager.getTest().addScreenCaptureFromPath(base64Screenshot);
+        String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BASE64);
+        // ExtentTestManager.getTest().addScreenCaptureFromPath(base64Screenshot);
     }
 
 }

@@ -9,23 +9,23 @@ public class BasePage {
     public WebDriverWait wait;
 
     //Constructor
-    public BasePage (WebDriver driver, WebDriverWait wait){
+    public BasePage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
     }
 
     //Click Method
-    public void click (By elementLocation) {
+    public void click(By elementLocation) {
         driver.findElement(elementLocation).click();
     }
 
     //Write Text
-    public void writeText (By elementLocation, String text) {
+    public void writeText(By elementLocation, String text) {
         driver.findElement(elementLocation).sendKeys(text);
     }
 
     //Read Text
-    public String readText (By elementLocation) {
+    public String readText(By elementLocation) {
         return driver.findElement(elementLocation).getText();
     }
 }

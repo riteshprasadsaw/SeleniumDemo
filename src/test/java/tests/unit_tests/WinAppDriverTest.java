@@ -1,27 +1,20 @@
 package tests.unit_tests;
 
+import io.appium.java_client.windows.WindowsDriver;
 import org.junit.*;
-
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.util.concurrent.TimeUnit;
-
 import java.net.URL;
-
-import io.appium.java_client.windows.WindowsDriver;
-
+import java.util.concurrent.TimeUnit;
 
 
 public class WinAppDriverTest {
 
 
-
     private static WindowsDriver CalculatorSession = null;
 
     private static WebElement CalculatorResult = null;
-
 
 
     @BeforeClass
@@ -39,14 +32,12 @@ public class WinAppDriverTest {
             CalculatorSession.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
 
-
             CalculatorResult = CalculatorSession.findElementByAccessibilityId("CalculatorResults");
 
             Assert.assertNotNull(CalculatorResult);
 
 
-
-        }catch(Exception e){
+        } catch (Exception e) {
 
             e.printStackTrace();
 
@@ -55,22 +46,6 @@ public class WinAppDriverTest {
         }
 
     }
-
-
-
-    @Before
-
-    public void Clear()
-
-    {
-
-        CalculatorSession.findElementByName("Clear").click();
-
-        Assert.assertEquals("0", _GetCalculatorResultText());
-
-    }
-
-
 
     @AfterClass
 
@@ -90,7 +65,17 @@ public class WinAppDriverTest {
 
     }
 
+    @Before
 
+    public void Clear()
+
+    {
+
+        CalculatorSession.findElementByName("Clear").click();
+
+        Assert.assertEquals("0", _GetCalculatorResultText());
+
+    }
 
     @Test
 
@@ -109,7 +94,6 @@ public class WinAppDriverTest {
         Assert.assertEquals("8", _GetCalculatorResultText());
 
     }
-
 
 
     @Test
@@ -141,7 +125,6 @@ public class WinAppDriverTest {
     }
 
 
-
     @Test
 
     public void Division()
@@ -165,7 +148,6 @@ public class WinAppDriverTest {
     }
 
 
-
     @Test
 
     public void Multiplication()
@@ -183,7 +165,6 @@ public class WinAppDriverTest {
         Assert.assertEquals("81", _GetCalculatorResultText());
 
     }
-
 
 
     @Test
@@ -205,7 +186,6 @@ public class WinAppDriverTest {
     }
 
 
-
     protected String _GetCalculatorResultText()
 
     {
@@ -215,7 +195,6 @@ public class WinAppDriverTest {
         return CalculatorResult.getText().replace("Display is", "").trim();
 
     }
-
 
 
 }

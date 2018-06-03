@@ -1,7 +1,5 @@
 package utils.Listeners;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -24,6 +22,7 @@ public class TestListener extends BaseTest implements ITestListener {
     public void onStart(ITestContext iTestContext) {
         System.out.println("I am in onStart method " + iTestContext.getName());
         iTestContext.setAttribute("WebDriver", this.driver);
+
     }
 
     @Override
@@ -36,40 +35,40 @@ public class TestListener extends BaseTest implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult iTestResult) {
-        System.out.println("I am in onTestStart method " +  getTestMethodName(iTestResult) + " start");
+        System.out.println("I am in onTestStart method " + getTestMethodName(iTestResult) + " start");
         //Start operation for extentreports.
-        ExtentTestManager.startTest(iTestResult.getMethod().getMethodName(),"");
+        ExtentTestManager.startTest(iTestResult.getMethod().getMethodName(), "");
     }
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-        System.out.println("I am in onTestSuccess method " +  getTestMethodName(iTestResult) + " succeed");
+        System.out.println("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
         //Extentreports log operation for passed tests.
         ExtentTestManager.getTest().log(Status.PASS, "Test passed");
     }
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        System.out.println("I am in onTestFailure method " +  getTestMethodName(iTestResult) + " failed");
+        System.out.println("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
 
         //Get driver from BaseTest and assign to local webdriver variable.
         Object testClass = iTestResult.getInstance();
         WebDriver webDriver = ((BaseTest) testClass).getDriver();
 
         //Take base64Screenshot screenshot.
-        String base64Screenshot = "data:image/png;base64,"+((TakesScreenshot)webDriver).
+        String base64Screenshot = "data:image/png;base64," + ((TakesScreenshot) webDriver).
                 getScreenshotAs(OutputType.BASE64);
 
         //Extentreports log and screenshot operations for failed tests.
 
-            ExtentTestManager.getTest().log(Status.FAIL,"Test Failed");
-                    //ExtentTestManager.getTest().addScreenCaptureFromPath(base64Screenshot));
+        ExtentTestManager.getTest().log(Status.FAIL, "Test Failed");
+        //ExtentTestManager.getTest().addScreenCaptureFromPath(base64Screenshot));
 
     }
 
     @Override
     public void onTestSkipped(ITestResult iTestResult) {
-        System.out.println("I am in onTestSkipped method "+  getTestMethodName(iTestResult) + " skipped");
+        System.out.println("I am in onTestSkipped method " + getTestMethodName(iTestResult) + " skipped");
         //Extentreports log operation for skipped tests.
         ExtentTestManager.getTest().log(Status.SKIP, "Test Skipped");
     }

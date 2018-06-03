@@ -7,17 +7,16 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 
-
 //OB: ExtentReports extent instance created here. That instance can be reachable by getReporter() method.
 
 public class ExtentManager {
 
     private static ExtentReports extent;
 
-     public static ExtentReports getInstance() {
-         String workingDir = System.getProperty("user.dir");
+    public static ExtentReports getInstance() {
+        String workingDir = System.getProperty("user.dir");
         if (extent == null)
-            createInstance(workingDir+"/ExtentReports/ExtentReportResults.html");
+            createInstance(workingDir + "/ExtentReports/ExtentReportResults.html");
 
         return extent;
     }
@@ -32,7 +31,7 @@ public class ExtentManager {
         htmlReporter.config().setReportName("Automation Test Report");
 
         extent = new ExtentReports();
-        extent.setAnalysisStrategy(AnalysisStrategy.SUITE);
+        extent.setAnalysisStrategy(AnalysisStrategy.CLASS);
         extent.attachReporter(htmlReporter);
 
         return extent;

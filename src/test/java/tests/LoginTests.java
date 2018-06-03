@@ -3,7 +3,6 @@ package tests;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
-import utils.ExtentReports.ExtentTestManager;
 
 public class LoginTests extends BaseTest {
 
@@ -13,14 +12,14 @@ public class LoginTests extends BaseTest {
     //    Homepage homepage = new HomePage(driver,wait);
     // 3) super () method in page class transfer the driver and wait variables values to the BasePage class.
 
-    @Test (priority = 0, description="Invalid Login Scenario with wrong username and password.")
-    public void invalidLoginTest_InvalidUserNameInvalidPassword () throws InterruptedException {
+    @Test(priority = 0, description = "Invalid Login Scenario with wrong username and password.")
+    public void invalidLoginTest_InvalidUserNameInvalidPassword() throws InterruptedException {
         //ExtentReports Description
-       // ExtentTestManager.getTest().createNode("Invalid Login Scenario with wrong username and password.");
+        // ExtentTestManager.getTest().createNode("Invalid Login Scenario with wrong username and password.");
 
         //*************PAGE INSTANTIATIONS*************
-        HomePage homePage = new HomePage(driver,wait);
-        LoginPage loginPage = new LoginPage(driver,wait);
+        HomePage homePage = new HomePage(driver, wait);
+        LoginPage loginPage = new LoginPage(driver, wait);
 
         //*************PAGE METHODS********************
         //Open N11 HomePage
@@ -37,8 +36,8 @@ public class LoginTests extends BaseTest {
         loginPage.verifyLoginPassword(("E-posta adresiniz veya şifreniz hatalı"));
     }
 
-    @Test (priority = 0, description="Invalid Login Scenario")
-    public void invalidLoginTest () throws InterruptedException {
+    @Test(priority = 0, description = "Invalid Login Scenario")
+    public void invalidLoginTest() throws InterruptedException {
         System.out.print("test");
 
     }
