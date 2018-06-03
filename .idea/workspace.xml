@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="984abeb2-5906-49a9-a297-98fbec6a37fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aeonbits_owner_owner_1_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebDrivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/configInterfaces/Environment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/qa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/stage.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/unit_tests/ConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReports/ExtentReportResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtentReportsExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtentReportsExample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins_pipeline/E2E-automation-test.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins_pipeline/E2E-automation-test.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/unit_tests/WinAppDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit_tests/WinAppDriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentReports/ExtentTestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/Retry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Listeners/TestListener.java" afterDir="false" />
-    </list>
+    <list default="true" id="984abeb2-5906-49a9-a297-98fbec6a37fd" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -574,8 +548,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="703" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="703" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
