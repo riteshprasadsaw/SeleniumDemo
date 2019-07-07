@@ -18,7 +18,7 @@ public class BaseTest {
     public void setup() {
         //Create a Chrome driver. All test classes use this.
         String path = System.getProperty("user.dir");
-        System.setProperty("webdriver.chrome.driver" , "/Users/saorabhkumar/Desktop/CHARLES/DemoProject/WebDrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver" , path+"/WebDrivers/chromedriver.exe");
         driver = new ChromeDriver();
 
         //Create a wait. All test classes use this.
